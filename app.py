@@ -261,9 +261,9 @@ def predict_growth():
 def health_check():
     return jsonify({'status': 'API is running'})
 
-if __name__== '__main__':
-    print("Starting Flask API server...")
-    # Train models on startup
-    train_models()
-    # Run the Flask app
-    app.run(host='0.0.0.0', port=5001, debug=True)
+# if __name__== '__main__':
+#     print("Starting Flask API server...")
+#     # Train models on startup
+#     train_models()
+#     # Run the Flask app
+#     app.run(host='0.0.0.0', port=5001, debug=True)
